@@ -1,0 +1,35 @@
+{
+  "short_name": "React App",
+  "name": "Create React App Sample",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    }
+  ],
+  "start_url": "./index.html",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff",
+  "version": "1.0",
+  "name": "Navi Extension",
+  "manifest_version": 2,
+  "description": "This extension allow the user to select the text and redirect to the NAVI application",
+  "browser_action": {
+    "default_title": "Navi Extension",
+    "default_popup": "index.html"
+  },
+  "icons": {
+    "16": "img/NaviLogo.png",
+    "48": "img/NaviLogo.png",
+    "128": "img/NaviLogo.png"
+  },
+  "permissions": [
+    "contextMenus",
+    "tabs",
+    "storage",
+    "http://*/*",
+    "https://*/*"
+  ]
+}
